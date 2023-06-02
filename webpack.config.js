@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+const { sources } = require("webpack");
 
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -27,4 +28,5 @@ module.exports = {
       template: "./index.html",
     }),
   ],
+  devtool: isProduction ? "hidden-source-map" : "source-map",
 };
