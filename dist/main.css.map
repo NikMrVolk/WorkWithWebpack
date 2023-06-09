@@ -1,1 +1,0 @@
-{"version":3,"file":"main.css","mappings":"AAAA,KACE,cACF","sources":["webpack://4/./src/css/style.css"],"sourcesContent":[".foo {\r\n  background: red;\r\n}\r\n"],"names":[],"sourceRoot":""}
