@@ -1,1 +1,1 @@
-# WorkWithWebpack
+# Work with webpack and tyoescript
